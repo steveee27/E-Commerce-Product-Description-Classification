@@ -56,7 +56,7 @@ This project focuses on classifying product descriptions from an e-commerce webs
 
 ## Conclusion
 
-The results highlight that TF-IDF with SVM consistently delivers higher accuracy and precision, making it ideal for applications requiring precise product classification. On the other hand, Random Forest with Word2Vec demonstrates better recall, suggesting its suitability for scenarios where minimizing missed classifications is crucial. These findings underscore the importance of selecting the right combination of text representation and model based on the specific requirements of the classification task, such as precision-focused marketing recommendations or recall-sensitive inventory categorization.
+The results clearly demonstrate that the combination of TF-IDF with a tuned SVM model achieves the best performance across all metrics, including accuracy, precision, recall, and F1 score. Other combinations, such as Random Forest with Word2Vec or even TF-IDF, consistently lagged behind, with their highest scores reaching only around 0.92 compared to 0.95 achieved by the tuned SVM model. These findings highlight the importance of fine-tuning hyperparameters and selecting robust text representation techniques like TF-IDF for achieving superior results in e-commerce product classification. This approach proves particularly effective for tasks requiring both accuracy and consistency in categorization.
 
 ## License
 
