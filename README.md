@@ -56,7 +56,7 @@ This project focuses on classifying product descriptions from an e-commerce webs
 
 ## Conclusion
 
-This project demonstrates the process of classifying e-commerce product descriptions into predefined categories using two text representation methods and machine learning algorithms. By comparing the performance metrics of different models, the analysis highlights the strengths and weaknesses of each approach, providing insights into effective strategies for text-based product classification.
+The results highlight that TF-IDF with SVM consistently delivers higher accuracy and precision, making it ideal for applications requiring precise product classification. On the other hand, Random Forest with Word2Vec demonstrates better recall, suggesting its suitability for scenarios where minimizing missed classifications is crucial. These findings underscore the importance of selecting the right combination of text representation and model based on the specific requirements of the classification task, such as precision-focused marketing recommendations or recall-sensitive inventory categorization.
 
 ## License
 
